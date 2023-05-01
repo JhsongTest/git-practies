@@ -1,2 +1,11 @@
 # Test Python ENV
-print("Test File: Hello World!")
+def print_hello():
+	animals = ['dog', 'cat', 'hamster']
+	foods = ['chicken', 'pork', 'beef']
+	names = ['John', 'Jane', 'Gil-dong',] # with trailing comma
+
+	for f_name in names:
+		print(f'hello, {f_name}')
+
+if __name__ == '__main__':
+	print_hello()
